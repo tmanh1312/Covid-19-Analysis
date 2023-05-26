@@ -1,0 +1,13 @@
+# app.R
+
+# Final Deliverable Covid_19
+
+# Load library
+library("shiny")
+
+# Source ui and server of the app
+source("ui.R")
+source("server.R")
+
+# Run the app
+shinyApp(ui = ui, server = server)
